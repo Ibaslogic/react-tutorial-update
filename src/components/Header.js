@@ -6,11 +6,10 @@ const Header = () => {
     padding: "20px 0",
     lineHeight: "1.5em",
   }
-
+  
   return (
     <header style={headerStyle}>
-      <h1 style={{ fontSize: "40px", marginBottom: "15px", lineHeight: "40px", color: "#7d7d7d" }}>Simple Todo App</h1>
-      <p style={{ fontSize: "16px" }}>Please add to-dos item(s) through the input field</p>
+      <h1 style={{ fontSize: "6rem", fontWeight: "600", marginBottom: "2rem", lineHeight: "1em", color: "#eee", textTransform: "lowercase", textAlign: "center" }}>todos</h1>
     </header>
   )
 }
