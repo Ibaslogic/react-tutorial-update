@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "./Header"
-import InputTodo from "./InputTodo"
+import Header from "../../functionBased/Header"
+import InputTodo from "../../components/InputTodo"
 import TodosList from "./TodosList";
 import { v4 as uuidv4 } from "uuid";
 
