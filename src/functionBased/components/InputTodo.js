@@ -1,3 +1,7 @@
+/* eslint-disable react/button-has-type */
+/* eslint-disable */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 
 const InputTodo = (props) => {
